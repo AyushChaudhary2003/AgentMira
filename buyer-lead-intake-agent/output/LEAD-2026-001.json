@@ -1,0 +1,207 @@
+{
+  "lead_id": "LEAD-2026-001",
+  "received_at": "2026-06-19T09:14:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Marcus Thompson",
+    "email": "[email protected]",
+    "phone": "305-555-0142"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": 700000,
+      "maximum": 700000
+    },
+    "min_bedrooms": 2,
+    "max_bedrooms": 3,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Downtown Miami",
+      "Brickell"
+    ],
+    "property_types": [
+      "Condo"
+    ],
+    "must_have_features": [],
+    "nice_to_have_features": [
+      "Balcony",
+      "Gym"
+    ],
+    "timeline": "Move-in by August",
+    "cash_buyer": false,
+    "soft_preferences": [
+      "Relocating from out of state"
+    ],
+    "referenced_address": null,
+    "summary": "2-3BR condo in Downtown Miami or Brickell ~$700K"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100261",
+        "mls_number": "A28058430",
+        "address": "4759 Hibiscus Drive",
+        "neighborhood": "Downtown Miami",
+        "price": 594000,
+        "bedrooms": 3.0,
+        "bathrooms": 3.0,
+        "sqft": 1992,
+        "year_built": 1959,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 28,
+        "features": [
+          "Gym",
+          "Rooftop",
+          "Concierge",
+          "Gated Community",
+          "Bay View"
+        ]
+      },
+      "score": 92.5,
+      "match_reasons": [
+        "In Downtown Miami (requested)",
+        "$594,000 \u2014 within target budget ($700,000)",
+        "3 bedrooms (requested 2-3)",
+        "Condo (requested)",
+        "Has: Gym"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100277",
+        "mls_number": "A15140967",
+        "address": "7267 Biscayne Boulevard #725",
+        "neighborhood": "Brickell",
+        "price": 648000,
+        "bedrooms": 3.0,
+        "bathrooms": 2.0,
+        "sqft": 1427,
+        "year_built": 2011,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 133,
+        "features": [
+          "Concierge",
+          "Bay View",
+          "Gym",
+          "Stainless Steel Appliances"
+        ]
+      },
+      "score": 92.5,
+      "match_reasons": [
+        "In Brickell (requested)",
+        "$648,000 \u2014 within target budget ($700,000)",
+        "3 bedrooms (requested 2-3)",
+        "Condo (requested)",
+        "Has: Gym"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100033",
+        "mls_number": "A31139813",
+        "address": "5682 Main Highway",
+        "neighborhood": "Brickell",
+        "price": 666000,
+        "bedrooms": 2.0,
+        "bathrooms": 2.0,
+        "sqft": 1151,
+        "year_built": 1986,
+        "property_type": "Townhouse",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 33,
+        "features": [
+          "Bay View",
+          "Gym",
+          "Garden",
+          "Tennis Court",
+          "Concierge"
+        ]
+      },
+      "score": 87.5,
+      "match_reasons": [
+        "In Brickell (requested)",
+        "$666,000 \u2014 within target budget ($700,000)",
+        "2 bedrooms (requested 2-3)",
+        "Townhouse (similar to requested Condo)",
+        "Has: Gym"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100273",
+        "mls_number": "A74819756",
+        "address": "9796 Alhambra Circle",
+        "neighborhood": "Downtown Miami",
+        "price": 539000,
+        "bedrooms": 2.0,
+        "bathrooms": 2.5,
+        "sqft": 1042,
+        "year_built": 1957,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 25,
+        "features": [
+          "Walk-in Closet",
+          "Boat Dock",
+          "Granite Countertops",
+          "Wine Cellar",
+          "Central AC",
+          "Doorman",
+          "Waterfront"
+        ]
+      },
+      "score": 85.0,
+      "match_reasons": [
+        "In Downtown Miami (requested)",
+        "$539,000 \u2014 within target budget ($700,000)",
+        "2 bedrooms (requested 2-3)",
+        "Condo (requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100286",
+        "mls_number": "A59370777",
+        "address": "2758 Main Highway",
+        "neighborhood": "Brickell",
+        "price": 476000,
+        "bedrooms": 3.0,
+        "bathrooms": 4.5,
+        "sqft": 2587,
+        "year_built": 2003,
+        "property_type": "Villa",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 178,
+        "features": [
+          "Waterfront",
+          "Balcony",
+          "Wine Cellar",
+          "Solar Panels",
+          "Home Office",
+          "Pet Friendly"
+        ]
+      },
+      "score": 84.5,
+      "match_reasons": [
+        "In Brickell (requested)",
+        "$476,000 \u2014 within target budget ($700,000)",
+        "3 bedrooms (requested 2-3)",
+        "Has: Balcony"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    }
+  ],
+  "flags": [],
+  "suggested_next_action": "(Move-in by August). Call or email the buyer and lead with the top matches (4759 Hibiscus Drive, 7267 Biscayne Boulevard #725). Confirm the open questions flagged below, then offer to schedule showings."
+}

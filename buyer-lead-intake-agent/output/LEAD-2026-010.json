@@ -1,0 +1,197 @@
+{
+  "lead_id": "LEAD-2026-010",
+  "received_at": "2026-06-20T13:22:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Karen O'Brien",
+    "email": "[email protected]",
+    "phone": "212-555-0944"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": null,
+      "maximum": 8000000
+    },
+    "min_bedrooms": 5,
+    "max_bedrooms": null,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Key Biscayne",
+      "Bal Harbour"
+    ],
+    "property_types": [],
+    "must_have_features": [
+      "Boat Dock"
+    ],
+    "nice_to_have_features": [
+      "Waterfront"
+    ],
+    "timeline": "Wants to close before year-end",
+    "cash_buyer": false,
+    "soft_preferences": [],
+    "referenced_address": null,
+    "summary": "5+BR home in Key Biscayne or Bal Harbour ~$8.00M \u00b7 must have boat dock"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100007",
+        "mls_number": "A10022778",
+        "address": "6707 NW 41st Street",
+        "neighborhood": "Bal Harbour",
+        "price": 6625000,
+        "bedrooms": 5.0,
+        "bathrooms": 3.5,
+        "sqft": 3900,
+        "year_built": 2017,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 119,
+        "features": [
+          "Smart Home",
+          "Solar Panels",
+          "Boat Dock"
+        ]
+      },
+      "score": 92.5,
+      "match_reasons": [
+        "In Bal Harbour (requested)",
+        "$6,625,000 \u2014 within target budget ($8,000,000)",
+        "5 bedrooms (requested 5-5)",
+        "Has: Boat Dock"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100158",
+        "mls_number": "A63098035",
+        "address": "6733 Washington Avenue",
+        "neighborhood": "Key Biscayne",
+        "price": 5818000,
+        "bedrooms": 5.0,
+        "bathrooms": 4.5,
+        "sqft": 3528,
+        "year_built": 2016,
+        "property_type": "Villa",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 157,
+        "features": [
+          "Boat Dock",
+          "Rooftop",
+          "Garden",
+          "Home Office",
+          "Ocean View",
+          "Marble Floors",
+          "Garage"
+        ]
+      },
+      "score": 92.5,
+      "match_reasons": [
+        "In Key Biscayne (requested)",
+        "$5,818,000 \u2014 within target budget ($8,000,000)",
+        "5 bedrooms (requested 5-5)",
+        "Has: Boat Dock"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100170",
+        "mls_number": "A91883846",
+        "address": "9231 West Avenue",
+        "neighborhood": "Bal Harbour",
+        "price": 6707000,
+        "bedrooms": 5.0,
+        "bathrooms": 2.0,
+        "sqft": 3458,
+        "year_built": 2006,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 99,
+        "features": [
+          "Central AC",
+          "Concierge",
+          "Gated Community",
+          "Boat Dock",
+          "Gym"
+        ]
+      },
+      "score": 92.5,
+      "match_reasons": [
+        "In Bal Harbour (requested)",
+        "$6,707,000 \u2014 within target budget ($8,000,000)",
+        "5 bedrooms (requested 5-5)",
+        "Has: Boat Dock"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100249",
+        "mls_number": "A34929311",
+        "address": "979 Coral Way",
+        "neighborhood": "Aventura",
+        "price": 1386000,
+        "bedrooms": 5.0,
+        "bathrooms": 3.0,
+        "sqft": 2548,
+        "year_built": 2022,
+        "property_type": "Multi-Family",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 157,
+        "features": [
+          "Pool",
+          "Boat Dock",
+          "Walk-in Closet",
+          "Home Office",
+          "Pet Friendly"
+        ]
+      },
+      "score": 77.5,
+      "match_reasons": [
+        "In Aventura, adjacent to requested Bal Harbour",
+        "$1,386,000 \u2014 within target budget ($8,000,000)",
+        "5 bedrooms (requested 5-5)",
+        "Has: Boat Dock"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100182",
+        "mls_number": "A25157001",
+        "address": "8638 Crandon Boulevard",
+        "neighborhood": "North Beach",
+        "price": 903000,
+        "bedrooms": 8.0,
+        "bathrooms": 5.0,
+        "sqft": 3730,
+        "year_built": 1960,
+        "property_type": "Multi-Family",
+        "listing_status": "Active",
+        "days_on_market": 145,
+        "features": [
+          "Walk-in Closet",
+          "Smart Home",
+          "Boat Dock"
+        ]
+      },
+      "score": 75.5,
+      "match_reasons": [
+        "In North Beach, adjacent to requested Bal Harbour",
+        "$903,000 \u2014 within target budget ($8,000,000)",
+        "8 bedrooms (more than requested)",
+        "Has: Boat Dock"
+      ],
+      "concerns": []
+    }
+  ],
+  "flags": [],
+  "suggested_next_action": "(Wants to close before year-end). Call or email the buyer and lead with the top matches (6707 NW 41st Street, 6733 Washington Avenue). Confirm the open questions flagged below, then offer to schedule showings."
+}

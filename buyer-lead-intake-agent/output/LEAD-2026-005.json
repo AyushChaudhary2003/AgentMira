@@ -1,0 +1,43 @@
+{
+  "lead_id": "LEAD-2026-005",
+  "received_at": "2026-06-19T16:21:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Robert Klein",
+    "email": "[email protected]",
+    "phone": "305-555-0498"
+  },
+  "criteria": {
+    "intent": "negotiation_advice",
+    "budget": {
+      "target": 950000,
+      "maximum": 1250000
+    },
+    "min_bedrooms": null,
+    "max_bedrooms": null,
+    "min_bathrooms": null,
+    "neighborhoods": [],
+    "property_types": [],
+    "must_have_features": [],
+    "nice_to_have_features": [],
+    "timeline": null,
+    "cash_buyer": false,
+    "soft_preferences": [],
+    "referenced_address": "1820 Bay Road",
+    "summary": "home around $950K (up to $1.25M)"
+  },
+  "recommended_properties": [],
+  "flags": [
+    {
+      "code": "needs_human_negotiation",
+      "severity": "critical",
+      "message": "This is not a property search \u2014 the buyer is asking for offer-price advice and the seller's motivation on a specific listing. This needs a licensed agent. Note: we cannot disclose a seller's motivation (it may breach the listing side's confidentiality/fiduciary duty), and offer strategy should be discussed live, not auto-generated."
+    },
+    {
+      "code": "referenced_listing_data_issue",
+      "severity": "warning",
+      "message": "The referenced listing (1820 Bay Road, MLS-100169) has a data problem: Listed square footage (50 sqft) is implausibly small for a single family \u2014 likely a data-entry error. Verify before quoting."
+    }
+  ],
+  "suggested_next_action": "Call the buyer to discuss representation first \u2014 do not put offer numbers in writing yet. If we don't represent them, offer to. Do not disclose seller motivation. Verify the listing's data before any pricing conversation."
+}

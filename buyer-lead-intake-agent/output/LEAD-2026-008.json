@@ -1,0 +1,200 @@
+{
+  "lead_id": "LEAD-2026-008",
+  "received_at": "2026-06-20T10:15:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Jennifer Walsh",
+    "email": "[email protected]",
+    "phone": "305-555-0612"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": 1200000,
+      "maximum": 1400000
+    },
+    "min_bedrooms": 4,
+    "max_bedrooms": 4,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Coconut Grove",
+      "Coral Gables"
+    ],
+    "property_types": [
+      "Single Family"
+    ],
+    "must_have_features": [],
+    "nice_to_have_features": [
+      "Pool",
+      "Home Office"
+    ],
+    "timeline": null,
+    "cash_buyer": false,
+    "soft_preferences": [
+      "School quality matters (children in household)",
+      "Relocating from out of state"
+    ],
+    "referenced_address": null,
+    "summary": "4+BR single family in Coconut Grove or Coral Gables around $1200K (up to $1.40M)"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100298",
+        "mls_number": "A80610004",
+        "address": "2470 Ponce de Leon Boulevard",
+        "neighborhood": "Coral Gables",
+        "price": 1458000,
+        "bedrooms": 4.0,
+        "bathrooms": 5.0,
+        "sqft": 2769,
+        "year_built": 1956,
+        "property_type": "Villa",
+        "listing_status": "Active",
+        "days_on_market": 38,
+        "features": [
+          "Home Office",
+          "Stainless Steel Appliances",
+          "Central AC",
+          "Terrace",
+          "Pool"
+        ]
+      },
+      "score": 81.9,
+      "match_reasons": [
+        "In Coral Gables (requested)",
+        "$1,458,000",
+        "4 bedrooms (requested 4-4)",
+        "Villa (similar to requested Single Family)",
+        "Has: Pool, Home Office"
+      ],
+      "concerns": [
+        "$1,458,000 is 4% over the $1,400,000 budget ceiling."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100013",
+        "mls_number": "A87029205",
+        "address": "2034 Collins Avenue",
+        "neighborhood": "Coral Gables",
+        "price": 1028000,
+        "bedrooms": 4.0,
+        "bathrooms": 3.0,
+        "sqft": 2336,
+        "year_built": 2017,
+        "property_type": "Townhouse",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 165,
+        "features": [
+          "Pet Friendly",
+          "Marble Floors",
+          "Gym",
+          "Ocean View",
+          "Smart Home",
+          "Central AC"
+        ]
+      },
+      "score": 80.0,
+      "match_reasons": [
+        "In Coral Gables (requested)",
+        "$1,028,000 \u2014 within target budget ($1,200,000)",
+        "4 bedrooms (requested 4-4)",
+        "Townhouse (similar to requested Single Family)"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100102",
+        "mls_number": "A66936428",
+        "address": "504 Fisher Island Drive",
+        "neighborhood": "Coconut Grove",
+        "price": 1129000,
+        "bedrooms": 4.0,
+        "bathrooms": 3.5,
+        "sqft": 1844,
+        "year_built": 1999,
+        "property_type": "Townhouse",
+        "listing_status": "Active",
+        "days_on_market": 87,
+        "features": [
+          "Garage",
+          "Hardwood Floors",
+          "Wine Cellar"
+        ]
+      },
+      "score": 80.0,
+      "match_reasons": [
+        "In Coconut Grove (requested)",
+        "$1,129,000 \u2014 within target budget ($1,200,000)",
+        "4 bedrooms (requested 4-4)",
+        "Townhouse (similar to requested Single Family)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100196",
+        "mls_number": "A79158328",
+        "address": "5194 NE 2nd Avenue",
+        "neighborhood": "Coconut Grove",
+        "price": 1194000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.0,
+        "sqft": 1937,
+        "year_built": 2003,
+        "property_type": "Multi-Family",
+        "listing_status": "Active",
+        "days_on_market": 87,
+        "features": [
+          "Waterfront",
+          "Boat Dock",
+          "Bay View",
+          "Granite Countertops",
+          "Pet Friendly",
+          "Gated Community"
+        ]
+      },
+      "score": 77.0,
+      "match_reasons": [
+        "In Coconut Grove (requested)",
+        "$1,194,000 \u2014 within target budget ($1,200,000)",
+        "4 bedrooms (requested 4-4)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100040",
+        "mls_number": "A56189726",
+        "address": "9310 Lincoln Road",
+        "neighborhood": "Coral Gables",
+        "price": 1349000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.0,
+        "sqft": 1861,
+        "year_built": 1995,
+        "property_type": "Multi-Family",
+        "listing_status": "Active",
+        "days_on_market": 126,
+        "features": [
+          "Pet Friendly",
+          "Solar Panels",
+          "Terrace"
+        ]
+      },
+      "score": 73.2,
+      "match_reasons": [
+        "In Coral Gables (requested)",
+        "$1,349,000 \u2014 within stretch budget ($1,400,000)",
+        "4 bedrooms (requested 4-4)"
+      ],
+      "concerns": []
+    }
+  ],
+  "flags": [],
+  "suggested_next_action": "Call or email the buyer and lead with the top matches (2470 Ponce de Leon Boulevard, 2034 Collins Avenue). Confirm the open questions flagged below, then offer to schedule showings."
+}

@@ -1,0 +1,43 @@
+{
+  "lead_id": "LEAD-2026-004",
+  "received_at": "2026-06-19T14:48:00-04:00",
+  "channel": "referral",
+  "buyer": {
+    "name": "Sofia Reyes",
+    "email": "[email protected]",
+    "phone": "305-555-0387"
+  },
+  "criteria": {
+    "intent": "investment_search",
+    "budget": {
+      "target": null,
+      "maximum": null
+    },
+    "min_bedrooms": null,
+    "max_bedrooms": null,
+    "min_bathrooms": null,
+    "neighborhoods": [],
+    "property_types": [],
+    "must_have_features": [],
+    "nice_to_have_features": [],
+    "timeline": null,
+    "cash_buyer": false,
+    "soft_preferences": [],
+    "referenced_address": null,
+    "summary": "home"
+  },
+  "recommended_properties": [],
+  "flags": [
+    {
+      "code": "insufficient_detail",
+      "severity": "warning",
+      "message": "The message doesn't specify anything concrete to match on (no budget, location, size, type, or features). Have a discovery conversation to qualify the lead before sending listings."
+    },
+    {
+      "code": "investor_lead",
+      "severity": "info",
+      "message": "Investor lead \u2014 prioritize cash flow / cap rate, rentability and condition over lifestyle features. Rental-comp and yield analysis would strengthen the follow-up."
+    }
+  ],
+  "suggested_next_action": "Reach out for a short discovery call to qualify the lead: budget, target neighborhoods, size, timeline, and financing. Don't send listings until criteria are clear."
+}

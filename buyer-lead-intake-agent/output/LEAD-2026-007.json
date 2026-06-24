@@ -1,0 +1,202 @@
+{
+  "lead_id": "LEAD-2026-007",
+  "received_at": "2026-06-20T08:42:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Elena Vasquez",
+    "email": "[email protected]",
+    "phone": "305-555-0271"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": null,
+      "maximum": 600000
+    },
+    "min_bedrooms": 2,
+    "max_bedrooms": 2,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Coral Gables",
+      "Aventura"
+    ],
+    "property_types": [],
+    "must_have_features": [],
+    "nice_to_have_features": [],
+    "timeline": null,
+    "cash_buyer": false,
+    "soft_preferences": [
+      "Accessibility / single-level living is a consideration",
+      "Proximity to amenities / commute is important",
+      "Relocating from out of state"
+    ],
+    "referenced_address": null,
+    "summary": "2+BR home in Coral Gables or Aventura ~$600K"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100017",
+        "mls_number": "A24464073",
+        "address": "4883 Hibiscus Drive",
+        "neighborhood": "Aventura",
+        "price": 485000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.5,
+        "sqft": 2671,
+        "year_built": 1992,
+        "property_type": "Villa",
+        "listing_status": "Active",
+        "days_on_market": 131,
+        "features": [
+          "Garage",
+          "Walk-in Closet",
+          "Waterfront",
+          "Granite Countertops",
+          "Gated Community",
+          "Hurricane Impact Windows"
+        ]
+      },
+      "score": 98.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$485,000 \u2014 within target budget ($600,000)",
+        "4 bedrooms (more than requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100161",
+        "mls_number": "A29232735",
+        "address": "7504 Harbor Drive",
+        "neighborhood": "Aventura",
+        "price": 445000,
+        "bedrooms": 4.0,
+        "bathrooms": 2.0,
+        "sqft": 1979,
+        "year_built": 1959,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 56,
+        "features": [
+          "Marble Floors",
+          "Pool",
+          "Home Office",
+          "Smart Home",
+          "Hurricane Impact Windows",
+          "Updated Kitchen"
+        ]
+      },
+      "score": 98.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$445,000 \u2014 within target budget ($600,000)",
+        "4 bedrooms (more than requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100226",
+        "mls_number": "A40281491",
+        "address": "2253 Biscayne Boulevard",
+        "neighborhood": "Aventura",
+        "price": 445000,
+        "bedrooms": 3.0,
+        "bathrooms": 3.5,
+        "sqft": 1579,
+        "year_built": 2008,
+        "property_type": "Townhouse",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 98,
+        "features": [
+          "Hurricane Impact Windows",
+          "Walk-in Closet",
+          "Gated Community",
+          "Hardwood Floors",
+          "Rooftop",
+          "Smart Home",
+          "Balcony"
+        ]
+      },
+      "score": 98.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$445,000 \u2014 within target budget ($600,000)",
+        "3 bedrooms (more than requested)"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100281",
+        "mls_number": "A66434872",
+        "address": "8411 Harbor Drive",
+        "neighborhood": "Aventura",
+        "price": 452000,
+        "bedrooms": 4.0,
+        "bathrooms": 1.5,
+        "sqft": 2100,
+        "year_built": 1982,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 71,
+        "features": [
+          "Tennis Court",
+          "Rooftop",
+          "Terrace",
+          "Boat Dock"
+        ]
+      },
+      "score": 98.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$452,000 \u2014 within target budget ($600,000)",
+        "4 bedrooms (more than requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100284",
+        "mls_number": "A44537812",
+        "address": "5226 Jefferson Avenue",
+        "neighborhood": "Aventura",
+        "price": 443000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.5,
+        "sqft": 2728,
+        "year_built": 2011,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 154,
+        "features": [
+          "Balcony",
+          "Updated Kitchen",
+          "Granite Countertops",
+          "Terrace",
+          "Stainless Steel Appliances",
+          "Concierge"
+        ]
+      },
+      "score": 98.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$443,000 \u2014 within target budget ($600,000)",
+        "4 bedrooms (more than requested)"
+      ],
+      "concerns": []
+    }
+  ],
+  "flags": [
+    {
+      "code": "unverifiable_needs",
+      "severity": "warning",
+      "message": "Buyer mentioned location-quality needs (e.g. commute, walkability, single-level living, or proximity to medical/grocery) that the MLS fields don't capture. Verify these per-property before recommending."
+    }
+  ],
+  "suggested_next_action": "Call or email the buyer and lead with the top matches (4883 Hibiscus Drive, 7504 Harbor Drive). Confirm the open questions flagged below, then offer to schedule showings."
+}

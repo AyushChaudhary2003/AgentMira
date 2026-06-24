@@ -1,0 +1,194 @@
+{
+  "lead_id": "LEAD-2026-012",
+  "received_at": "2026-06-20T16:18:00-04:00",
+  "channel": "referral",
+  "buyer": {
+    "name": "Michael Reeves",
+    "email": "[email protected]",
+    "phone": "305-555-0589"
+  },
+  "criteria": {
+    "intent": "investment_search",
+    "budget": {
+      "target": 500000,
+      "maximum": 900000
+    },
+    "min_bedrooms": null,
+    "max_bedrooms": null,
+    "min_bathrooms": null,
+    "neighborhoods": [],
+    "property_types": [
+      "Condo",
+      "Multi-Family"
+    ],
+    "must_have_features": [],
+    "nice_to_have_features": [],
+    "timeline": "Active over next 6 months",
+    "cash_buyer": false,
+    "soft_preferences": [],
+    "referenced_address": null,
+    "summary": "condo/multi-family around $500K-$900K"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100008",
+        "mls_number": "A86868379",
+        "address": "6909 Bay Harbor Terrace",
+        "neighborhood": "North Miami",
+        "price": 382000,
+        "bedrooms": 5.0,
+        "bathrooms": 3.0,
+        "sqft": 2778,
+        "year_built": 1986,
+        "property_type": "Multi-Family",
+        "listing_status": "Active",
+        "days_on_market": 79,
+        "features": [
+          "Stainless Steel Appliances",
+          "High Ceilings",
+          "Balcony",
+          "Hardwood Floors",
+          "Wine Cellar"
+        ]
+      },
+      "score": 100.0,
+      "match_reasons": [
+        "$382,000 \u2014 within target budget ($500,000)",
+        "Multi-Family (requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100020",
+        "mls_number": "A25492573",
+        "address": "8388 SW 27th Avenue",
+        "neighborhood": "Edgewater",
+        "price": 459000,
+        "bedrooms": 2.0,
+        "bathrooms": 1.0,
+        "sqft": 1250,
+        "year_built": 1990,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 117,
+        "features": [
+          "Waterfront",
+          "Home Office",
+          "Boat Dock",
+          "Marble Floors",
+          "Pool"
+        ]
+      },
+      "score": 100.0,
+      "match_reasons": [
+        "$459,000 \u2014 within target budget ($500,000)",
+        "Condo (requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100067",
+        "mls_number": "A68646621",
+        "address": "705 Old Cutler Road, Miami, FL 33172",
+        "neighborhood": "Doral",
+        "price": 380000,
+        "bedrooms": 0.0,
+        "bathrooms": 1.5,
+        "sqft": 242,
+        "year_built": 2009,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 136,
+        "features": [
+          "Smart Home",
+          "Walk-in Closet",
+          "Ocean View",
+          "Wine Cellar",
+          "Boat Dock",
+          "Granite Countertops",
+          "Balcony"
+        ]
+      },
+      "score": 100.0,
+      "match_reasons": [
+        "$380,000 \u2014 within target budget ($500,000)",
+        "Condo (requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100084",
+        "mls_number": "A94214382",
+        "address": "6582 Kane Concourse",
+        "neighborhood": "North Miami",
+        "price": 451000,
+        "bedrooms": 2.0,
+        "bathrooms": 1.5,
+        "sqft": 1252,
+        "year_built": 2007,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 72,
+        "features": [
+          "Rooftop",
+          "Central AC",
+          "Concierge",
+          "Gym",
+          "Stainless Steel Appliances",
+          "Updated Kitchen"
+        ]
+      },
+      "score": 100.0,
+      "match_reasons": [
+        "$451,000 \u2014 within target budget ($500,000)",
+        "Condo (requested)"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100117",
+        "mls_number": "A77085942",
+        "address": "2373 NE 191st Street",
+        "neighborhood": "North Miami",
+        "price": 378000,
+        "bedrooms": 4.0,
+        "bathrooms": 3.0,
+        "sqft": 1819,
+        "year_built": 1988,
+        "property_type": "Multi-Family",
+        "listing_status": "Pending",
+        "days_on_market": 145,
+        "features": [
+          "Doorman",
+          "Garage",
+          "Wine Cellar",
+          "Balcony",
+          "Stainless Steel Appliances",
+          "Gated Community",
+          "Rooftop"
+        ]
+      },
+      "score": 100.0,
+      "match_reasons": [
+        "$378,000 \u2014 within target budget ($500,000)",
+        "Multi-Family (requested)"
+      ],
+      "concerns": [
+        "Status is 'Pending' \u2014 may not be available; confirm first."
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "code": "investor_lead",
+      "severity": "info",
+      "message": "Investor lead \u2014 prioritize cash flow / cap rate, rentability and condition over lifestyle features. Rental-comp and yield analysis would strengthen the follow-up."
+    }
+  ],
+  "suggested_next_action": "(Active over next 6 months). Call or email the buyer and lead with the top matches (6909 Bay Harbor Terrace, 8388 SW 27th Avenue). Confirm the open questions flagged below, then offer to schedule showings. Bring rough rent/cap-rate comps to the conversation."
+}

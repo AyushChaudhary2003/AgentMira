@@ -1,0 +1,221 @@
+{
+  "lead_id": "LEAD-2026-006",
+  "received_at": "2026-06-19T18:03:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Aaron Cooper",
+    "email": "[email protected]",
+    "phone": "954-555-0156"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": null,
+      "maximum": 850000
+    },
+    "min_bedrooms": 3,
+    "max_bedrooms": 3,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "North Miami",
+      "Aventura"
+    ],
+    "property_types": [
+      "Single Family"
+    ],
+    "must_have_features": [],
+    "nice_to_have_features": [
+      "Garage",
+      "Updated Kitchen",
+      "Pool"
+    ],
+    "timeline": null,
+    "cash_buyer": false,
+    "soft_preferences": [],
+    "referenced_address": null,
+    "summary": "3+BR single family in North Miami or Aventura ~$850K"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100284",
+        "mls_number": "A44537812",
+        "address": "5226 Jefferson Avenue",
+        "neighborhood": "Aventura",
+        "price": 443000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.5,
+        "sqft": 2728,
+        "year_built": 2011,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 154,
+        "features": [
+          "Balcony",
+          "Updated Kitchen",
+          "Granite Countertops",
+          "Terrace",
+          "Stainless Steel Appliances",
+          "Concierge"
+        ]
+      },
+      "score": 88.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$443,000 \u2014 within target budget ($850,000)",
+        "4 bedrooms (more than requested)",
+        "Single Family (requested)",
+        "Has: Updated Kitchen"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100048",
+        "mls_number": "A11226946",
+        "address": "7650 Granada Boulevard",
+        "neighborhood": "North Miami",
+        "price": 549000,
+        "bedrooms": 3.0,
+        "bathrooms": 2.5,
+        "sqft": 1959,
+        "year_built": 2008,
+        "property_type": "Townhouse",
+        "listing_status": "Active",
+        "days_on_market": 169,
+        "features": [
+          "Ocean View",
+          "Gated Community",
+          "Private Beach Access",
+          "Bay View",
+          "Tennis Court",
+          "Hurricane Impact Windows",
+          "Pool"
+        ]
+      },
+      "score": 85.0,
+      "match_reasons": [
+        "In North Miami (requested)",
+        "$549,000 \u2014 within target budget ($850,000)",
+        "3 bedrooms (requested 3-3)",
+        "Townhouse (similar to requested Single Family)",
+        "Has: Pool"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100161",
+        "mls_number": "A29232735",
+        "address": "7504 Harbor Drive",
+        "neighborhood": "Aventura",
+        "price": 445000,
+        "bedrooms": 4.0,
+        "bathrooms": 2.0,
+        "sqft": 1979,
+        "year_built": 1959,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 56,
+        "features": [
+          "Marble Floors",
+          "Pool",
+          "Home Office",
+          "Smart Home",
+          "Hurricane Impact Windows",
+          "Updated Kitchen"
+        ]
+      },
+      "score": 85.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$445,000 \u2014 within target budget ($850,000)",
+        "4 bedrooms (more than requested)",
+        "Has: Updated Kitchen, Pool"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100167",
+        "mls_number": "A90444404",
+        "address": "7948 Crandon Boulevard",
+        "neighborhood": "North Miami",
+        "price": 344000,
+        "bedrooms": 3.0,
+        "bathrooms": null,
+        "sqft": 2548,
+        "year_built": 1961,
+        "property_type": "Villa",
+        "listing_status": "Pending",
+        "days_on_market": 37,
+        "features": [
+          "Hardwood Floors",
+          "Updated Kitchen",
+          "Boat Dock",
+          "Marble Floors",
+          "Ocean View",
+          "Central AC",
+          "Rooftop"
+        ]
+      },
+      "score": 85.0,
+      "match_reasons": [
+        "In North Miami (requested)",
+        "$344,000 \u2014 within target budget ($850,000)",
+        "3 bedrooms (requested 3-3)",
+        "Villa (similar to requested Single Family)",
+        "Has: Updated Kitchen"
+      ],
+      "concerns": [
+        "Status is 'Pending' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100017",
+        "mls_number": "A24464073",
+        "address": "4883 Hibiscus Drive",
+        "neighborhood": "Aventura",
+        "price": 485000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.5,
+        "sqft": 2671,
+        "year_built": 1992,
+        "property_type": "Villa",
+        "listing_status": "Active",
+        "days_on_market": 131,
+        "features": [
+          "Garage",
+          "Walk-in Closet",
+          "Waterfront",
+          "Granite Countertops",
+          "Gated Community",
+          "Hurricane Impact Windows"
+        ]
+      },
+      "score": 83.0,
+      "match_reasons": [
+        "In Aventura (requested)",
+        "$485,000 \u2014 within target budget ($850,000)",
+        "4 bedrooms (more than requested)",
+        "Villa (similar to requested Single Family)",
+        "Has: Garage"
+      ],
+      "concerns": []
+    }
+  ],
+  "flags": [
+    {
+      "code": "prompt_injection",
+      "severity": "critical",
+      "message": "This message contains text attempting to manipulate the automated system (e.g. \"ignore previous instructions\" / requests to dump database records). The injected instructions were ignored; only the genuine property request was processed. Treat the sender with extra scrutiny and do not share any internal or owner data."
+    },
+    {
+      "code": "pii_request",
+      "severity": "critical",
+      "message": "The sender asked for owner/seller contact details so they can \"contact them directly.\" This was refused. Owner PII is never included in a brief. This pattern can indicate a non-genuine buyer (e.g. wholesaler or data scraper)."
+    }
+  ],
+  "suggested_next_action": "Verify this buyer is genuine before investing time. The message tried to extract internal data. If legitimate, proceed with the property request below; otherwise deprioritize."
+}

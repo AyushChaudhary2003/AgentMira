@@ -1,0 +1,191 @@
+{
+  "lead_id": "LEAD-2026-002",
+  "received_at": "2026-06-19T11:32:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Patricia and David Chen",
+    "email": "[email protected]",
+    "phone": "786-555-0234"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": 2000000,
+      "maximum": 2300000
+    },
+    "min_bedrooms": 4,
+    "max_bedrooms": null,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Coral Gables",
+      "Pinecrest"
+    ],
+    "property_types": [],
+    "must_have_features": [
+      "Pool"
+    ],
+    "nice_to_have_features": [],
+    "timeline": "Timeline flexible",
+    "cash_buyer": false,
+    "soft_preferences": [
+      "School quality matters (children in household)",
+      "Relocating from out of state"
+    ],
+    "referenced_address": null,
+    "summary": "4+BR home in Coral Gables or Pinecrest around $2000K (up to $2.30M) \u00b7 must have pool"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100298",
+        "mls_number": "A80610004",
+        "address": "2470 Ponce de Leon Boulevard",
+        "neighborhood": "Coral Gables",
+        "price": 1458000,
+        "bedrooms": 4.0,
+        "bathrooms": 5.0,
+        "sqft": 2769,
+        "year_built": 1956,
+        "property_type": "Villa",
+        "listing_status": "Active",
+        "days_on_market": 38,
+        "features": [
+          "Home Office",
+          "Stainless Steel Appliances",
+          "Central AC",
+          "Terrace",
+          "Pool"
+        ]
+      },
+      "score": 100.0,
+      "match_reasons": [
+        "In Coral Gables (requested)",
+        "$1,458,000 \u2014 within target budget ($2,000,000)",
+        "4 bedrooms (requested 4-4)",
+        "Has: Pool"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100061",
+        "mls_number": "A11116303",
+        "address": "5788 NE 191st Street",
+        "neighborhood": "Coconut Grove",
+        "price": 2051000,
+        "bedrooms": 4.0,
+        "bathrooms": 5.0,
+        "sqft": 2647,
+        "year_built": 2003,
+        "property_type": "Villa",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 110,
+        "features": [
+          "Balcony",
+          "Pool",
+          "Marble Floors",
+          "Gated Community"
+        ]
+      },
+      "score": 81.2,
+      "match_reasons": [
+        "In Coconut Grove, adjacent to requested Coral Gables",
+        "$2,051,000 \u2014 within stretch budget ($2,300,000)",
+        "4 bedrooms (requested 4-4)",
+        "Has: Pool"
+      ],
+      "concerns": [
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100036",
+        "mls_number": "A75313057",
+        "address": "9535 Mashta Drive",
+        "neighborhood": "Brickell",
+        "price": 1589000,
+        "bedrooms": 4.0,
+        "bathrooms": 5.0,
+        "sqft": 2857,
+        "year_built": 2007,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 55,
+        "features": [
+          "Smart Home",
+          "Home Office",
+          "Pool",
+          "Hardwood Floors"
+        ]
+      },
+      "score": 70.0,
+      "match_reasons": [
+        "$1,589,000 \u2014 within target budget ($2,000,000)",
+        "4 bedrooms (requested 4-4)",
+        "Has: Pool"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100052",
+        "mls_number": "A54965270",
+        "address": "4877 Harbor Drive",
+        "neighborhood": "Edgewater",
+        "price": 1497000,
+        "bedrooms": 4.0,
+        "bathrooms": 3.5,
+        "sqft": 3047,
+        "year_built": 2016,
+        "property_type": "Villa",
+        "listing_status": "Active",
+        "days_on_market": 55,
+        "features": [
+          "Updated Kitchen",
+          "Pool",
+          "Hurricane Impact Windows",
+          "Doorman"
+        ]
+      },
+      "score": 70.0,
+      "match_reasons": [
+        "$1,497,000 \u2014 within target budget ($2,000,000)",
+        "4 bedrooms (requested 4-4)",
+        "Has: Pool"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100072",
+        "mls_number": "A76800348",
+        "address": "2538 Ocean Drive",
+        "neighborhood": "Doral",
+        "price": 419673,
+        "bedrooms": 4.0,
+        "bathrooms": 2.5,
+        "sqft": 2291,
+        "year_built": 1994,
+        "property_type": "Townhouse",
+        "listing_status": "Active",
+        "days_on_market": 452,
+        "features": [
+          "Rooftop",
+          "Concierge",
+          "Central AC",
+          "Pool"
+        ]
+      },
+      "score": 70.0,
+      "match_reasons": [
+        "$419,673 \u2014 within target budget ($2,000,000)",
+        "4 bedrooms (requested 4-4)",
+        "Has: Pool"
+      ],
+      "concerns": []
+    }
+  ],
+  "flags": [],
+  "suggested_next_action": "(Timeline flexible). Call or email the buyer and lead with the top matches (2470 Ponce de Leon Boulevard, 5788 NE 191st Street). Confirm the open questions flagged below, then offer to schedule showings."
+}

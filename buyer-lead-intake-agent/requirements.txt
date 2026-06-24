@@ -1,0 +1,16 @@
+# The default offline run uses only the Python standard library (3.9+).
+#   python3 run.py
+# No installation step is required to reproduce the 12 Lead Briefs.
+
+# --- Optional: LLM extraction engine ---------------------------------------
+# Needed only if you want the Gemini-powered extractor (--engine gemini).
+# Also set GEMINI_API_KEY in your environment.
+# google-genai
+
+# --- Optional: test runner --------------------------------------------------
+# The test suite runs with the stdlib unittest module:
+#   python3 tests/test_agent.py
+# pytest is supported too if you prefer it:
+# pytest>=8.0.0
+
+

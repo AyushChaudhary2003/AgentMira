@@ -1,0 +1,209 @@
+{
+  "lead_id": "LEAD-2026-009",
+  "received_at": "2026-06-20T11:47:00-04:00",
+  "channel": "referral",
+  "buyer": {
+    "name": "Luis Hernandez",
+    "email": "[email protected]",
+    "phone": "305-555-0823"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": null,
+      "maximum": 750000
+    },
+    "min_bedrooms": 2,
+    "max_bedrooms": 3,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Brickell"
+    ],
+    "property_types": [
+      "Townhouse"
+    ],
+    "must_have_features": [
+      "Garage"
+    ],
+    "nice_to_have_features": [],
+    "timeline": null,
+    "cash_buyer": true,
+    "soft_preferences": [],
+    "referenced_address": null,
+    "summary": "2-3BR townhouse in Brickell ~$750K \u00b7 must have garage"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100002",
+        "mls_number": "A92048427",
+        "address": "7465 Michigan Avenue",
+        "neighborhood": "Edgewater",
+        "price": 635000,
+        "bedrooms": 4.0,
+        "bathrooms": 4.0,
+        "sqft": 2010,
+        "year_built": 1966,
+        "property_type": "Multi-Family",
+        "listing_status": "Active",
+        "days_on_market": 152,
+        "features": [
+          "Hardwood Floors",
+          "Gym",
+          "Terrace",
+          "Granite Countertops",
+          "Pet Friendly",
+          "Garage",
+          "Walk-in Closet"
+        ]
+      },
+      "score": 75.0,
+      "match_reasons": [
+        "In Edgewater, adjacent to requested Brickell",
+        "$635,000 \u2014 within target budget ($750,000)",
+        "4 bedrooms (more than requested)",
+        "Has: Garage"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100159",
+        "mls_number": "A44587020",
+        "address": "1577 Hibiscus Drive",
+        "neighborhood": "Mid-Beach",
+        "price": 615000,
+        "bedrooms": 3.0,
+        "bathrooms": 3.0,
+        "sqft": 1683,
+        "year_built": 1999,
+        "property_type": "Townhouse",
+        "listing_status": "Pending",
+        "days_on_market": 121,
+        "features": [
+          "Pool",
+          "Walk-in Closet",
+          "Hardwood Floors",
+          "Doorman",
+          "Marble Floors",
+          "Garage",
+          "High Ceilings"
+        ]
+      },
+      "score": 70.0,
+      "match_reasons": [
+        "$615,000 \u2014 within target budget ($750,000)",
+        "3 bedrooms (requested 2-3)",
+        "Townhouse (requested)",
+        "Has: Garage"
+      ],
+      "concerns": [
+        "Status is 'Pending' \u2014 may not be available; confirm first."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100092",
+        "mls_number": "A58884978",
+        "address": "9612 SW 27th Avenue",
+        "neighborhood": "Downtown Miami",
+        "price": 751000,
+        "bedrooms": 3.0,
+        "bathrooms": 4.0,
+        "sqft": 2581,
+        "year_built": 2010,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 116,
+        "features": [
+          "Garage",
+          "Concierge",
+          "Central AC",
+          "Granite Countertops",
+          "Walk-in Closet",
+          "Ocean View",
+          "Garden"
+        ]
+      },
+      "score": 69.9,
+      "match_reasons": [
+        "In Downtown Miami, adjacent to requested Brickell",
+        "$751,000",
+        "3 bedrooms (requested 2-3)",
+        "Single Family (similar to requested Townhouse)",
+        "Has: Garage"
+      ],
+      "concerns": [
+        "$751,000 is 0% over the $750,000 budget ceiling."
+      ]
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100229",
+        "mls_number": "A81971316",
+        "address": "9754 NE 2nd Avenue",
+        "neighborhood": "Doral",
+        "price": 676000,
+        "bedrooms": 3.0,
+        "bathrooms": 4.5,
+        "sqft": 2564,
+        "year_built": 1989,
+        "property_type": "Single Family",
+        "listing_status": "Active",
+        "days_on_market": 60,
+        "features": [
+          "Bay View",
+          "Concierge",
+          "Garage"
+        ]
+      },
+      "score": 65.0,
+      "match_reasons": [
+        "$676,000 \u2014 within target budget ($750,000)",
+        "3 bedrooms (requested 2-3)",
+        "Single Family (similar to requested Townhouse)",
+        "Has: Garage"
+      ],
+      "concerns": []
+    },
+    {
+      "listing": {
+        "listing_id": "MLS-100251",
+        "mls_number": "A90161060",
+        "address": "6040 Harbor Drive",
+        "neighborhood": "Miami Beach",
+        "price": 644000,
+        "bedrooms": 2.0,
+        "bathrooms": 2.0,
+        "sqft": 1497,
+        "year_built": 1985,
+        "property_type": "Condo",
+        "listing_status": "Active",
+        "days_on_market": 44,
+        "features": [
+          "Private Beach Access",
+          "Home Office",
+          "Garage",
+          "Marble Floors",
+          "Wine Cellar"
+        ]
+      },
+      "score": 65.0,
+      "match_reasons": [
+        "$644,000 \u2014 within target budget ($750,000)",
+        "2 bedrooms (requested 2-3)",
+        "Condo (similar to requested Townhouse)",
+        "Has: Garage"
+      ],
+      "concerns": []
+    }
+  ],
+  "flags": [
+    {
+      "code": "cash_buyer",
+      "severity": "info",
+      "message": "Cash buyer \u2014 faster, more certain close. High-priority follow-up."
+    }
+  ],
+  "suggested_next_action": "Call the buyer and lead with the top matches (7465 Michigan Avenue, 1577 Hibiscus Drive). Confirm the open questions flagged below, then offer to schedule showings."
+}

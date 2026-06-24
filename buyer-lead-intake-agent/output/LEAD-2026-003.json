@@ -1,0 +1,59 @@
+{
+  "lead_id": "LEAD-2026-003",
+  "received_at": "2026-06-19T13:05:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Anonymous (form not filled)",
+    "email": "[email protected]",
+    "phone": ""
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": 250000,
+      "maximum": 250000
+    },
+    "min_bedrooms": 4,
+    "max_bedrooms": 4,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Downtown Miami",
+      "Brickell"
+    ],
+    "property_types": [],
+    "must_have_features": [
+      "Ocean View",
+      "Pool"
+    ],
+    "nice_to_have_features": [],
+    "timeline": "Urgent \u2014 wants to act this week",
+    "cash_buyer": false,
+    "soft_preferences": [],
+    "referenced_address": null,
+    "summary": "4+BR home in Downtown Miami or Brickell ~$250K \u00b7 must have ocean view, pool"
+  },
+  "recommended_properties": [],
+  "flags": [
+    {
+      "code": "anonymous_lead",
+      "severity": "warning",
+      "message": "Buyer did not provide a name (anonymous submission). Identity unverified."
+    },
+    {
+      "code": "missing_phone",
+      "severity": "warning",
+      "message": "No phone number provided \u2014 email is the only contact channel."
+    },
+    {
+      "code": "no_match_diagnosis",
+      "severity": "warning",
+      "message": "1 listing(s) match all non-price requirements, but the cheapest is $2,200,000 \u2014 well above the $250,000 budget. Budget is the binding constraint; reset price expectations or relax location/size/features."
+    },
+    {
+      "code": "urgent_timeline",
+      "severity": "info",
+      "message": "Time-sensitive: Urgent \u2014 wants to act this week. Respond quickly."
+    }
+  ],
+  "suggested_next_action": "Respond today \u2014 the buyer flagged urgency. No current inventory cleanly matches these criteria. Call to broaden the search (price, location, or must-haves) and set up a saved-search alert so they hear first when something lands."
+}

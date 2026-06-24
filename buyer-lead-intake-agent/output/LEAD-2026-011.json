@@ -1,0 +1,84 @@
+{
+  "lead_id": "LEAD-2026-011",
+  "received_at": "2026-06-20T14:55:00-04:00",
+  "channel": "website_form",
+  "buyer": {
+    "name": "Priya Sharma",
+    "email": "[email protected]",
+    "phone": "305-555-0367"
+  },
+  "criteria": {
+    "intent": "property_search",
+    "budget": {
+      "target": null,
+      "maximum": 400000
+    },
+    "min_bedrooms": 1,
+    "max_bedrooms": 2,
+    "min_bathrooms": null,
+    "neighborhoods": [
+      "Wynwood"
+    ],
+    "property_types": [
+      "Condo"
+    ],
+    "must_have_features": [
+      "Pet Friendly"
+    ],
+    "nice_to_have_features": [],
+    "timeline": null,
+    "cash_buyer": false,
+    "soft_preferences": [
+      "Proximity to amenities / commute is important",
+      "First-time buyer \u2014 will need more guidance and reassurance"
+    ],
+    "referenced_address": null,
+    "summary": "1-2BR condo in Wynwood ~$400K \u00b7 must have pet friendly"
+  },
+  "recommended_properties": [
+    {
+      "listing": {
+        "listing_id": "MLS-100176",
+        "mls_number": "A80257585",
+        "address": "4755 Bay Harbor Terrace",
+        "neighborhood": "Wynwood",
+        "price": 420000,
+        "bedrooms": 1.0,
+        "bathrooms": 2.5,
+        "sqft": 774,
+        "year_built": 2001,
+        "property_type": "Condo",
+        "listing_status": "Active Under Contract",
+        "days_on_market": 88,
+        "features": [
+          "Private Beach Access",
+          "High Ceilings",
+          "Walk-in Closet",
+          "Rooftop",
+          "Pet Friendly",
+          "Updated Kitchen"
+        ]
+      },
+      "score": 86.2,
+      "match_reasons": [
+        "In Wynwood (requested)",
+        "$420,000",
+        "1 bedrooms (requested 1-2)",
+        "Condo (requested)",
+        "Has: Pet Friendly"
+      ],
+      "concerns": [
+        "$420,000 is 5% over the $400,000 budget ceiling.",
+        "Status is 'Active Under Contract' \u2014 may not be available; confirm first."
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "code": "unverifiable_needs",
+      "severity": "warning",
+      "message": "Buyer mentioned location-quality needs (e.g. commute, walkability, single-level living, or proximity to medical/grocery) that the MLS fields don't capture. Verify these per-property before recommending."
+    }
+  ],
+  "suggested_next_action": "Call or email the buyer and lead with the top matches (4755 Bay Harbor Terrace). Confirm the open questions flagged below, then offer to schedule showings."
+}
